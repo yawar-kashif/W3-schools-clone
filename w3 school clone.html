@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3 school</title>
+    <style>
+        header{
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            align-items: center;
+            height: 80px;
+           position: fixed;
+           left: 20px;
+           right: 20px;
+           
+            
+            
+        }
+        img{
+            width: 150px;
+            height: 90px;
+            margin-left: 0;
+        }
+        ul{
+            list-style-type: none;
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+           
+        }
+        .b{
+            margin-left: 15px;
+        
+        }
+        header>input{
+            height: 40px;
+            width: 200px;
+            display: flex;
+           justify-content: center;
+           border-radius: 20px;
+           border: 1px solid;
+           padding-left: 20px;
+        }
+        button{
+            height: 50px;
+            width: 100px;
+            margin-right: 10px;
+            border-radius: 8px;
+            background-color: rgb(15, 179, 15);
+            color: white;
+            border: 1px solid black;
+           font-size: 1rem;
+            
+        }
+        nav{
+            background-color: black;
+            display: flex;
+            list-style-type: none;
+            color: white;
+            height: 50px;
+            align-items: center;
+            justify-content: space-between;
+            position: fixed;
+            top: 80px;
+            right: 15px;
+           
+            
+           
+        }
+        .a{
+            font-size: 1rem;
+            
+        }
+        body{
+            
+           
+            margin: 0;
+        }
+        
+       #body{
+        display: flex;
+        
+
+       }
+       .left{
+        width: 20%;
+        height: 80vh;
+        background-color: rgb(214, 214, 214);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        overflow: scroll;
+        font-size: 1.4rem;
+        position: fixed;
+        top: 130px;
+        bottom: 0px;
+        left: 0px;
+        
+        
+        
+        
+        
+
+       }
+    
+        .right{
+            width: 80%;
+            height: 100vh;
+            background-color: white;
+            padding-left: 35px;
+            display: flex;
+            flex-direction: column;
+            overflow: scroll;
+            margin-left: 250px;
+            
+           
+            
+        }
+        h2{
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+           font-size: 1.8rem;
+           margin-bottom: 2px;
+        }
+        ol{
+            list-style-type: none;
+            
+        }
+       .list>li{
+        margin-bottom: 15px;
+       }
+       h3{
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       }
+       h1{
+        font-size: 2.5rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       }
+       .l{
+        background-color: rgb(210, 252, 238);
+        height: 220px;
+        width: 40%;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+
+       }
+       .r{
+        background-color: rgb(255, 223, 228);
+        height: 220px;
+        width: 40%;
+        margin-left: 35px;
+        border-radius: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+       #card{
+        display: flex;
+        
+        
+       }
+       .l>button{width: 180px;
+        font-weight: bold;
+    }
+       
+      h4{
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+      }  
+
+      .r>button{
+        background-color: blueviolet;
+        width: 250px;
+        font-weight: bold;
+      }
+      .d{
+        width: 250px;
+        font-weight: bold;
+        height: 60px;
+        font-size: 1.5rem;
+        border: 0cap;
+      }
+     
+     
+    </style>
+</head>
+<body>
+<header>
+    <img src="https://order.w3schools.com/lib/image/w3schools_logo_436_2.png" alt="w3 schools logo">
+    <ul>
+        <li class="b">Tutorial</li>
+        <li class="b">Refrences</li>
+        <li class="b">Exercises</li>
+        <li class="b">Certificates</li>
+    </ul>
+    <input type="search" placeholder="search here">
+    <button>Sign in</button>
+</header>
+<nav>
+<ul class="a">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JAVASCRIPT</li>
+    <li>SQL</li>
+    <li>PYTHON</li>
+    <li>JAVA</li>
+    <li>PHP</li>
+    <li>HOW TO</li>
+    <li>W3.CSS</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>C#</li>
+    <li>BOOTSTRAP</li>
+    <li>REACT</li>
+    <li>MY SQL</li>
+    <li>JQUERRY</li>
+    <li>EXCEL</li>
+    
+</ul>
+
+
+</nav>
+<div id="body">
+<div class="left">
+ <h2>HTML Tutorial</h2>
+
+ <ol class="list">
+    <li>HTML Home</li>
+    <li>HTML introduction</li>
+    <li>HTML Editors</li>
+    <li>HTML Basic</li>
+    <li>HTML Elements</li>
+    <li>HTML Attributes</li>
+    <li>HTML Headings</li>
+    <li>HTML Paragraphs</li>
+    <li>HTML Styles</li>
+    <li>HTML Formatting</li>
+    <li>HTML Quotations</li>
+    <li>HTML Comments</li>
+    <li>HTML Colors</li>
+    <li>HTML Css</li>
+    <li>HTML Links</li>
+    <li>HTML Images</li>
+    <li>HTML Favicon</li>
+    <li>HTML Page titles</li>
+    <li>HTML Tables</li>
+    <li>HTML  &nbsp;List</li>
+    <li>HTML Block n Inline</li>
+    <li>HTML Div</li>
+    <li>HTML Classes</li>
+    <li>HTML Id</li>
+    <li>HTML iframes</li>
+    <li>HTML Javascript</li>
+    <li>HTML File path</li>
+    <li>HTML Head</li>
+    
+
+ </ol>
+
+</div>
+<div class="right">
+    <h1>HTML Tutorial</h1>
+    <br><br>
+    <h3>Learn HTML</h3>
+    <br>
+    <p>HTML is the standard markup language for Web <br><br>
+
+With HTML you can create your own Website. <br><br>
+
+HTML is easy to learn - You will enjoy it!</p>
+<div id="card">
+<div class="l">
+    <h4>HTML Tutorial</h4>
+    <p>Study our HTML Tutorial for free,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;no registration needed.</p>
+<button>Learn HTML Now>></button>
+
+</div>
+
+
+    <div class="r">
+        <h4>HTML Course + Certificate</h4>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Upgrade your learning with our <br>
+interactive HTML Course and Get Certified.</p>
+<button>Upgrade to our HTML course</button>
+        </div>
+    </div>
+    <br><br>
+    <h3>HTML Examples</h3><br>
+    <p>This tutorial supplements all explanations with clarifying examples.</p>
+    <br>
+    <button class="d">See all HTML examples</button><br><br>
+    <h3>Video for HTML baginners</h3> <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/BzYMFd-lQL4?si=2CQst6h5xHGiEeOW" title="YouTube video player" frameborder="20px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+   
+</div>
+
+    
+</div>
+
+
+
+
+
+    
+</body>
+</html>
